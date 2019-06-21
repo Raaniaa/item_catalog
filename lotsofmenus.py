@@ -132,11 +132,7 @@ session.commit()
 
 menuItem2 = MenuItem(
     user_id=1, name="Peking Duck",
-    description=""" A famous duck dish from Beijing[1] 
-    that has been prepared since the imperial era.
-    The meat is prized for its thin, crisp skin, 
-    with authentic versions of the dish serving mostly 
-    the skin and little meat, sliced in front of the diners by the cook""", 
+    description=" A famous duck dish hat has been prepared since the imperial era.", 
     price="$25", course="Entree", restaurant=restaurant2)
 
 session.add(menuItem2)
@@ -145,8 +141,7 @@ session.commit()
 menuItem3 = MenuItem(
     user_id=1, 
     name="Spicy Tuna Roll",
-    description="""Seared rare ahi, avocado, 
-    edamame, cucumber with wasabi soy sauce """,
+    description="Seared rare ahi, avocado,edamame, cucumber with wasabi soy sauce ",
     price="15", course="Entree", restaurant=restaurant2)
 
 session.add(menuItem3)
@@ -164,8 +159,7 @@ session.commit()
 menuItem5 = MenuItem(
     user_id=1,
     name="Beef Noodle Soup",
-    description="""A Chinese noodle soup made of stewed or red braised beef,
-    beef broth, vegetables and Chinese noodles.""",
+    description="A Chinese noodle soup made of stewed or red braised beef, beef broth, vegetables and Chinese noodles.",
     price="14", course="Entree", restaurant=restaurant2)
 
 session.add(menuItem5)
@@ -174,12 +168,7 @@ session.commit()
 menuItem6 = MenuItem(
     user_id=1, 
     name="Ramen", 
-    description="""a Japanese noodle soup dish.
-    It consists of Chinese-style wheat noodles served 
-    in a meat - or (occasionally) fish-based broth,
-    often flavored with soy sauce or miso,
-    and uses toppings such as sliced pork, dried seaweed, kamaboko, 
-    and green onions.""",
+    description="a Japanese noodle soup dish consists of Chinese-style wheat noodles served a meat",
     price="12", course="Entree", restaurant=restaurant2)
 
 session.add(menuItem6)
@@ -195,9 +184,7 @@ session.commit()
 
 menuItem1 = MenuItem(
     user_id=1, name="Pho", 
-    description="""a Vietnamese noodle soup consisting of broth,
-    linguine-shaped rice noodles called banh pho, 
-    a few herbs, and meat.""",
+    description="a Vietnamese noodle soup consisting of broth linguine-shaped rice noodles called banh pho",
     price="$8.99", course="Entree", restaurant=restaurant1)
 
 session.add(menuItem1)
@@ -206,10 +193,7 @@ session.commit()
 menuItem2 = MenuItem(
     user_id=1,
     name="Chinese Dumplings", 
-    description="""a common Chinese dumpling which
-    generally consists of minced meat and finely chopped 
-    vegetables wrapped into a piece of dough skin. 
-    The skin can be either thin and elastic or thicker.""",
+    description="a common Chinese dumpling which of minced meat and chopped vegetables wrapped into a piece of dough skin",
     price="$6.99", course="Appetizer", restaurant=restaurant1)
 
 session.add(menuItem2)
@@ -217,8 +201,7 @@ session.commit()
 
 menuItem3 = MenuItem(
     user_id=1, name="Gyoza", 
-    description="""light seasoning of Japanese gyoza with salt and soy sauce,
-    and in a thin gyoza wrapper""",
+    description="light seasoning of Japanese gyoza with salt and soy sauce, and in a thin gyoza wrapper",
     price="$9.95", course="Entree", restaurant=restaurant1)
 
 session.add(menuItem3)
@@ -227,8 +210,7 @@ session.commit()
 menuItem4 = MenuItem(
     user_id=1,
     name="Stinky Tofu",
-    description="""Taiwanese dish, deep fried 
-    fermented tofu served with pickled cabbage.""",
+    description="Taiwanese dish, deep fried fermented tofu served with pickled cabbage.",
     price="$6.99", course="Entree", restaurant=restaurant1)
 
 session.add(menuItem4)
@@ -252,8 +234,7 @@ session.commit()
 
 menuItem1 = MenuItem(
     user_id=1, name="Tres Leches Cake",
-    description="""Rich, luscious sponge cake soaked in 
-    sweet milk and topped with vanilla bean whipped cream and strawberries.""",
+    description="Rich, luscious sponge cake soaked in weet milk and topped with vanilla.",
     price="$2.99", course="Dessert", restaurant=restaurant1)
 
 session.add(menuItem1)
@@ -271,9 +252,7 @@ session.commit()
 menuItem3 = MenuItem(
     user_id=1, 
     name="Honey Boba Shaved Snow",
-    description="""Milk snow layered with honey boba, 
-    jasmine tea jelly, grass jelly, caramel,
-    cream, and freshly made mochi""",
+    description="Milk snow layered with honey boba, jasmine tea jelly, grass jelly, caramel.",
     price="$4.50", course="Dessert", restaurant=restaurant1)
 
 session.add(menuItem3)
@@ -281,9 +260,7 @@ session.commit()
 
 menuItem4 = MenuItem(
     user_id=1, name="Cauliflower Manchurian",
-    description="""Golden fried cauliflower florets in a midly spiced soya,
-    garlic sauce cooked with fresh cilantro, 
-    celery, chilies, ginger & green onions""",
+    description="Golden fried cauliflower florets in a midly spiced soya, garlic sauce cooked with fresh cilantro.",
     price="$6.95", course="Appetizer", restaurant=restaurant1)
 session.add(menuItem4)
 session.commit()
@@ -291,9 +268,7 @@ session.commit()
 menuItem5 = MenuItem(
     user_id=1, 
     name="Aloo Gobi Burrito",
-    description="""Vegan goodness. Burrito filled with rice, 
-    garbanzo beans, curry sauce, potatoes(aloo), 
-    fried cauliflower(gobi) and chutney. Nom Nom""",
+    description="Vegan goodness. Burrito filled with rice, garbanzo beans, curry sauce, potatoes(aloo)",
     price="$7.95", course="Entree", restaurant=restaurant1)
 
 session.add(menuItem5)
@@ -318,8 +293,7 @@ session.commit()
 
 menuItem1 = MenuItem(
     user_id=1, name="Shellfish Tower",
-    description="""Lobster, shrimp, sea snails, 
-    crawfish, stacked into a delicious tower""",
+    description="Lobster, shrimp, sea snails,crawfish, stacked into a delicious tower",
     price="$13.95", 
     course="Entree", restaurant=restaurant1)
 
@@ -357,8 +331,7 @@ session.commit()
 menuItem5 = MenuItem(
     user_id=1,
     name="Tonkatsu Ramen",
-    description="""Noodles in a delicious
-    pork-based broth with a soft-boiled egg""",
+    description="Noodles in a delicious pork-based broth with a soft-boiled egg",
     price="$7.95", course="Entree", 
     restaurant=restaurant1)
 
@@ -376,8 +349,7 @@ session.commit()
 menuItem1 = MenuItem(
     user_id=1, 
     name="Lamb Curry", 
-    description="""Slow cook that thang in a pool of tomatoes, 
-    onions and alllll those tasty Indian spices. Mmmm.""",
+    description="Slow cook that thang in a pool of tomatoes nions and alllll those tasty Indian spices",
     price="$9.95", course="Entree", restaurant=restaurant1)
 
 session.add(menuItem1)
@@ -432,8 +404,7 @@ session.commit()
 menuItem9 = MenuItem(
     user_id=1,
     name="Chicken Fried Steak",
-    description="""Fresh battered sirloin steak
-    fried and smothered with cream gravy""",
+    description="Fresh battered sirloin steal fried and smothered with cream gravy",
     price="$8.99", course="Entree",
     restaurant=restaurant1)
 
@@ -444,8 +415,7 @@ session.commit()
 menuItem1 = MenuItem(
     user_id=1, 
     name="Boysenberry Sorbet", 
-    description="""An unsettlingly huge amount of
-    ripe berries turned into frozen(and seedless) awesomeness""",
+    description="An unsettlingly huge amount of ripe berries turned into frozen(and seedless) awesomeness",
     price="$2.99", course="Dessert", 
     restaurant=restaurant1)
 
@@ -455,8 +425,7 @@ session.commit()
 menuItem2 = MenuItem(
     user_id=1, 
     name="Broiled salmon", 
-    description="""Salmon fillet marinated with
-    fresh herbs and broiled hot & fast""",
+    description="Salmon fillet marinated with fresh herbs and broiled hot & fast",
     price="$10.95", course="Entree",
     restaurant=restaurant1)
 
@@ -466,8 +435,7 @@ session.commit()
 menuItem3 = MenuItem(
     user_id=1, 
     name="Morels on toast (seasonal)",
-    description="""Wild morel mushrooms fried in butter,
-    served on herbed toast slices""",
+    description="Wild morel mushrooms fried in butter,served on herbed toast slices",
     price="$7.50", course="Appetizer",
     restaurant=restaurant1)
 
@@ -477,11 +445,7 @@ session.commit()
 menuItem4 = MenuItem(
     user_id=1, 
     name="Tandoori Chicken", 
-    description="""Chicken marinated in yoghurt 
-    and seasoned with a spicy mix(chilli, tamarind among others) and slow 
-    cooked in a cylindrical clay or
-    metal oven which gets its 
-    heat from burning charcoal.""",
+    description="Chicken marinated in yoghurt and seasoned with a spicy mix(chilli, tamarind among others)",
     price="$8.95", course="Entree",
     restaurant=restaurant1)
 
@@ -519,9 +483,7 @@ session.commit()
 menuItem1 = MenuItem(
     user_id=1, 
     name="Super Burrito Al Pastor",
-    description="""Marinated Pork, Rice,
-    Beans, Avocado, Cilantro, Salsa, 
-    Tortilla""", price="$5.95", course="Entree", 
+    description="Marinated Pork, Rice,Beans, Avocado, Cilantro, Salsa.", price="$5.95", course="Entree", 
     restaurant=restaurant1)
 
 session.add(menuItem1)
@@ -529,9 +491,7 @@ session.commit()
 
 menuItem2 = MenuItem(
     user_id=1, name="Cachapa",
-    description="""Golden brown,
-    corn-based Venezuelan pancake,
-    usually stuffed with queso telita or queso de mano, and possibly lechon. """,
+    description="Golden brown,corn-based Venezuelan pancake.",
     price="$7.99", course="Entree", restaurant=restaurant1)
 
 session.add(menuItem2)
@@ -544,8 +504,7 @@ session.commit()
 
 menuItem1 = MenuItem(
     user_id=1, name="Chantrelle Toast",
-    description="""Crispy Toast with Sesame Seeds
-    slathered with buttery chantrelle mushrooms""",
+    description="Crispy Toast with Sesame Seeds slathered with buttery chantrelle mushrooms",
     price="$5.95", course="Appetizer", 
     restaurant=restaurant1)
 
@@ -555,8 +514,7 @@ session.commit
 menuItem1 = MenuItem(
     user_id=1, 
     name="Guanciale Chawanmushi",
-    description="""Japanese egg custard served hot
-    with spicey Italian Pork Jowl(guanciale)""",
+    description="Japanese egg custard served hot with spicey Italian Pork Jowl(guanciale),
     price="$6.95", course="Dessert",
     restaurant=restaurant1)
 
@@ -567,8 +525,7 @@ session.commit()
 menuItem1 = MenuItem(
     user_id=1,
     name="Lemon Curd Ice Cream Sandwich", 
-    description="""Lemon Curd Ice Cream Sandwich on 
-    a chocolate macaron with cardamom meringue and cashews""",
+    description="Lemon Curd Ice Cream Sandwich on a chocolate macaron with cardamom meringue and cashews",
     price="$4.25", course="Dessert",
     restaurant=restaurant1)
 
